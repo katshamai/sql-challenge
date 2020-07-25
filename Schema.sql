@@ -73,20 +73,20 @@ REFERENCES "Employees" ("emp_no");
 
 --- Copy data from CSV to database
 COPY "Departments"
-FROM 'C:\Users\ksham\Documents\SQL\Homework\data\departments.csv' DELIMITER ',' CSV HEADER;
-
-COPY "Department_Employees"
-FROM 'C:\Users\ksham\Documents\SQL\Homework\data\dept_emp.csv' DELIMITER ',' CSV HEADER;
-
-COPY "Department_Managers"
-FROM 'C:\Users\ksham\Documents\SQL\Homework\data\dept_manager.csv' DELIMITER ',' CSV HEADER;
+FROM 'C:\Users\ksham\OneDrive\Documents\GitHub\sql-challenge\data\departments.csv' DELIMITER ',' CSV HEADER;
 
 COPY "Titles"
-FROM 'C:\Users\ksham\Documents\SQL\Homework\data\titles.csv' DELIMITER ',' CSV HEADER;
+FROM 'C:\Users\ksham\OneDrive\Documents\GitHub\sql-challenge\data\titles.csv' DELIMITER ',' CSV HEADER;
 
 COPY "Employees"
-FROM 'C:\Users\ksham\Documents\SQL\Homework\data\employees.csv' DELIMITER ',' CSV HEADER;
+FROM 'C:\Users\ksham\OneDrive\Documents\GitHub\sql-challenge\data\employees.csv' DELIMITER ',' CSV HEADER;
+
+COPY "Department_Employees"
+FROM 'C:\Users\ksham\OneDrive\Documents\GitHub\sql-challenge\data\dept_emp.csv' DELIMITER ',' CSV HEADER;
+
+COPY "Department_Managers"
+FROM 'C:\Users\ksham\OneDrive\Documents\GitHub\sql-challenge\data\dept_manager.csv' DELIMITER ',' CSV HEADER;
 
 COPY "Salaries"
-FROM 'C:\Users\ksham\Documents\SQL\Homework\data\salaries.csv' DELIMITER ',' CSV HEADER;
+FROM 'C:\Users\ksham\OneDrive\Documents\GitHub\sql-challenge\data\salaries.csv' DELIMITER ',' CSV HEADER;
 
